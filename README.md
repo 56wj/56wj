@@ -29,7 +29,7 @@ I'm a software engineer focused on turning complex operational problems into rel
 | --- | --- | --- |
 | [**Roll Load AI Platform**](https://github.com/56wj/Monorepo) | Enterprise-oriented roll-packing platform with durable compute orchestration, deterministic validation, and a planning-agent foundation. | Java · Python · Vue · Docker |
 | [**Packing**](https://github.com/56wj/Packing) | Full-stack intelligent packing system with asynchronous calculation, Excel workflows, WebSocket updates, and 3D result visualization. | Spring Boot · Flask · Vue · Three.js · MySQL |
-| [**OnCall Agent**](https://github.com/56wj/OnCall-Agent) | RAG and AIOps assistant using a Planner–Executor–Replanner workflow for alert analysis, log queries, diagnosis, and report generation. | Java 17 · Spring Boot · Spring AI · Milvus |
+| [**Multi-Agent AIOps Platform**](https://github.com/56wj/mutil-rag-agent-main) | Skill-first intelligent operations platform with fast/deep RCA, hybrid RAG, MCP evidence collection, and a real-time control-room UI. | Python · FastAPI · LangGraph · Milvus · Kafka |
 | [**Loss Follow Copier**](https://github.com/56wj/loss-follow-copier) | MT5 automation toolkit with local/remote position synchronization, stale-data protection, symbol mapping, and configurable risk controls. | MQL5 · Python · C++ |
 
 ## Open-Source Work
