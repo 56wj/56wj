@@ -3,25 +3,35 @@
 </p>
 
 <p align="center">
-  <strong>Building production-minded AI systems, Java services, and optimization platforms.</strong>
+  <strong>Building production-minded AI systems, Java services, and agent infrastructure.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/56wj?tab=repositories">Projects</a>
   ·
-  <a href="https://github.com/56wj?tab=overview&from=2026-01-01&to=2026-12-31">Activity</a>
+  <a href="https://github.com/56wj?tab=overview">Activity</a>
   ·
-  <a href="https://github.com/pulls?q=is%3Apr+author%3A56wj">Open Source</a>
+  <a href="#upstream-open-source-contributions">Open Source</a>
 </p>
 
 ## About
 
-I'm a software engineer focused on turning complex operational problems into reliable, maintainable products.
+Software engineer focused on reliable **AI Agent, RAG, and Java/Spring** systems.
 
-- Building **AI Agent, RAG, and AIOps** applications with Java and Spring.
-- Designing full-stack optimization systems with **Java, Python, Vue, and Docker**.
-- Exploring **MCP, A2A, agent memory, and production AI infrastructure**.
-- Contributing fixes and features to the open-source Java/AI ecosystem.
+- Agent workflows, tool calling, MCP/A2A, memory, and production AI infrastructure.
+- Full-stack optimization products with **Java, Python, Vue, and Docker**.
+
+## Upstream Open-Source Contributions
+
+<p>
+  <img src="https://img.shields.io/badge/Upstream%20merged-2-2ea44f?style=flat-square" alt="2 upstream contributions merged" />
+  <img src="https://img.shields.io/badge/Focus-Agent%20%7C%20LLM%20Infrastructure-6f42c1?style=flat-square" alt="Agent and LLM infrastructure" />
+</p>
+
+| Project | Contribution | Verification |
+| --- | --- | --- |
+| [**Spring AI**](https://github.com/spring-projects/spring-ai) | Added opt-in AWS Bedrock Tool Result cache checkpoints for multi-round tool calling; included Spring Boot property binding, documentation, and tests. | [Merged upstream commit `904da07`](https://github.com/spring-projects/spring-ai/commit/904da07c13b8182982ba76661ad62d7f47888ccd) |
+| [**A2A Java**](https://github.com/a2aproject/a2a-java) | Fixed gRPC handling of omitted Push Notification Config IDs to match REST default-resolution semantics; added in-process gRPC and REST regression coverage. | [Merged PR #1163](https://github.com/a2aproject/a2a-java/pull/1163) |
 
 ## Selected Projects
 
@@ -31,12 +41,6 @@ I'm a software engineer focused on turning complex operational problems into rel
 | [**Packing**](https://github.com/56wj/Packing) | Full-stack intelligent packing system with asynchronous calculation, Excel workflows, WebSocket updates, and 3D result visualization. | Spring Boot · Flask · Vue · Three.js · MySQL |
 | [**Multi-Agent AIOps Platform**](https://github.com/56wj/mutil-rag-agent-main) | Skill-first intelligent operations platform with fast/deep RCA, hybrid RAG, MCP evidence collection, and a real-time control-room UI. | Python · FastAPI · LangGraph · Milvus · Kafka |
 | [**Loss Follow Copier**](https://github.com/56wj/loss-follow-copier) | MT5 automation toolkit with local/remote position synchronization, stale-data protection, symbol mapping, and configurable risk controls. | MQL5 · Python · C++ |
-
-## Open-Source Work
-
-- [Spring AI — cache tool results in `BedrockProxyChatModel`](https://github.com/spring-projects/spring-ai/pull/6942)
-- [Apache Fesod — support `Instant` string conversion](https://github.com/apache/fesod/pull/1089)
-- [MCP Annotations — improve null synchronous-tool exception messages](https://github.com/spring-ai-community/mcp-annotations/pull/114)
 
 ## Toolbox
 
@@ -52,4 +56,3 @@ I'm a software engineer focused on turning complex operational problems into rel
 ```text
 Current focus: reliable agent workflows · evaluation · orchestration · applied optimization
 ```
-
