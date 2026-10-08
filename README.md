@@ -24,14 +24,16 @@ Software engineer focused on reliable **AI Agent, RAG, and Java/Spring** systems
 ## Upstream Open-Source Contributions
 
 <p>
-  <img src="https://img.shields.io/badge/Upstream%20merged-2-2ea44f?style=flat-square" alt="2 upstream contributions merged" />
+  <img src="https://img.shields.io/badge/Open--source%20contributions-4-2ea44f?style=flat-square" alt="4 open-source contributions" />
   <img src="https://img.shields.io/badge/Focus-Agent%20%7C%20LLM%20Infrastructure-6f42c1?style=flat-square" alt="Agent and LLM infrastructure" />
 </p>
 
 | Project | Contribution | Verification |
 | --- | --- | --- |
 | [**Spring AI**](https://github.com/spring-projects/spring-ai) | Added opt-in AWS Bedrock Tool Result cache checkpoints for multi-round tool calling; included Spring Boot property binding, documentation, and tests. | [Merged upstream commit `904da07`](https://github.com/spring-projects/spring-ai/commit/904da07c13b8182982ba76661ad62d7f47888ccd) |
-| [**A2A Java**](https://github.com/a2aproject/a2a-java) | Fixed gRPC handling of omitted Push Notification Config IDs to match REST default-resolution semantics; added in-process gRPC and REST regression coverage. | [Merged PR #1163](https://github.com/a2aproject/a2a-java/pull/1163) |
+| [**A2A Java**](https://github.com/a2aproject/a2a-java) | Fixed gRPC handling of omitted Push Notification Config IDs to match REST default-resolution semantics; added in-process gRPC and REST regression coverage. | [PR #1163](https://github.com/a2aproject/a2a-java/pull/1163) |
+| [**Apache Fesod**](https://github.com/apache/fesod) | Added ISO-8601 `Instant` string conversion with UTC-offset validation and JDK 8-compatible parsing; covered Z, `+00:00`, and invalid non-UTC offsets. | [PR #1089](https://github.com/apache/fesod/pull/1089) |
+| [**Supermemory**](https://github.com/supermemoryai/supermemory) | Fixed build reliability by removing the implicit Sentry release/sourcemap upload from the root `postbuild`; retained the explicit release command. | [PR #1705](https://github.com/supermemoryai/supermemory/pull/1705) |
 
 ## Selected Projects
 
